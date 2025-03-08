@@ -1,6 +1,7 @@
 https://github.com/VINO656/pythonn
 import random
 import time
+Simulation not sure if this is feasible
 
 # Mock stock data (normally fetched via API)
 STOCK_DATA = {
