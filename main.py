@@ -4,6 +4,7 @@ import time
 Simulation not sure if this is feasible
 Testing the code changes
 Are you able to recognise this commit
+THis is working or not???
 
 # Mock stock data (normally fetched via API)
 STOCK_DATA = {
