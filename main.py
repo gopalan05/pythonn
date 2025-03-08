@@ -8,6 +8,7 @@ import time
 import numpy
 import pandas
 hello world
+import pandas
 
 # Mock stock data (normally fetched via API)
 STOCK_DATA = {
