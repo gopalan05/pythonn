@@ -89,6 +89,14 @@ def main():
     risk_result = risk_agent.analyze(stock_data)
 
     # Make final decision
+
+    class SentimentAnalysisAgent:
+    """Analyzes market sentiment"""
+    def analyze(self, stock_data):
+        sentiment = stock_data["sentiment"]
+        sentiment_label = "Positive" if sentiment > 0.7 else "Neutral" if sentiment > 0.5 else "Negative"
+        print(f"💬 Sentiment Analysis: Market sentiment is {sentiment_label}.")
+        return sentiment_label
     portfolio_manager.make_decision(tech_result, fund_result, sent_result, risk_result)
 
     print("\n🎯 AI Hedge Fund Simulation Completed ✅")
