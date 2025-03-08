@@ -90,6 +90,10 @@ def main():
     fund_result = fund_agent.analyze(stock_data)
     sent_result = sent_agent.analyze(stock_data)
     risk_result = risk_agent.analyze(stock_data)
+     tech_result = tech_agent.analyze(stock_data)
+    fund_result = fund_agent.analyze(stock_data)
+    sent_result = sent_agent.analyze(stock_data)
+    risk_result = risk_agent.analyze(stock_data)
 
     # Make final decision
     portfolio_manager.make_decision(tech_result, fund_result, sent_result, risk_result)
