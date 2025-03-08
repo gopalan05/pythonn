@@ -3,6 +3,7 @@ import random
 import time
 Simulation not sure if this is feasible
 Testing the code changes
+Are you able to recognise this commit
 
 # Mock stock data (normally fetched via API)
 STOCK_DATA = {
